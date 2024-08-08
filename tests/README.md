@@ -8,7 +8,7 @@ Please, treat the e-mail as acceptance criteria in scope of this task.
 * From: @a.williams@gmail.com
 * Topic: Custom event emitter
 * Hey there! How are the things going? :) You've probably heard the community wants to have this simple event emitter available, so we should deliver. Nothing fancy for now, the following should do:
-    * A user should be able to subscribe to a certain event, event name can be a string only
+    * A user should be able to subscribe to a certain event, event name can be a string only. Only 1 callback per event max. In case we subscribe to the already existing one - the new one overwrites the old.
     * A user should be able to unsubscribe from an event
     * A user should be able to emit an event
     * Nice to have: when subscribing you should be able to specify a maximum number of times the callback can be invoked
