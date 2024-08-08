@@ -11,7 +11,7 @@ Please, treat the e-mail as acceptance criteria in scope of this task.
     * A user should be able to subscribe to a certain event, event name can be a string only
     * A user should be able to unsubscribe from an event
     * A user should be able to emit an event
-    * When subscribing you should be able to specify a number of times the callback should be invoked
+    * Nice to have: when subscribing you should be able to specify a number of times the callback should be invoked
     * When removing the event, the calls counter from above should be reset, even if we subscribe to the very same event later
 * I hope you have a lovely weekend ahead, talk to you soon, mate!
 
