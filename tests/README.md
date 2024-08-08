@@ -9,7 +9,7 @@ Please, treat the e-mail as acceptance criteria in scope of this task.
 * Topic: Custom event emitter
 * Hey there! How are the things going? :) You've probably heard the community wants to have this simple event emitter available, so we should deliver. Nothing fancy for now, the following should do:
     * A user should be able to subscribe to a certain event, event name can be a string only
-    * A user should be able to unsubscribe from en event
+    * A user should be able to unsubscribe from an event
     * A user should be able to emit an event
     * When subscribing you should be able to specify a number of times the callback should be invoked
     * When removing the event, the calls counter from above should be reset, even if we subscribe to the very same event later
